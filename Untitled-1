@@ -1,0 +1,65 @@
+ // Insert your solution here
+    //  make a result string named answer
+        string answer = "";
+
+        // for each letter in the string given
+        for (int index = 0; index < input.Length; index++)
+        {
+            var letter = input[index];
+
+            //   if the letter is a '1' then
+            if (letter == '1')
+            {
+                //     append "1" to answer
+                answer += "1";
+            }
+            //   if the letter is a '2' then
+            if (letter == '2')
+            {
+                //     append '22' to the answer
+                answer += "22";
+            }
+            //   if the letter is a '3' then
+            if (letter == '3')
+            {
+                //     append '333' to the answer
+                answer += "333";
+            }
+            //   if the letter is a '4' then
+            if (letter == '4')
+            {
+                //     append '4444' to the answer
+                answer += "4444";
+            }
+            //   if the letter is a '5' then
+            if (letter == '5')
+            {
+                //     append '55555' to the answer
+                answer += "55555";
+            }
+            //   if the letter is a '6' then
+            if (letter == '6')
+            {
+                //     append '666666' to the answer
+                answer += "666666";
+            }
+            //   if the letter is a '7' then
+            if (letter == '7')
+            {
+                //     append '7777777' to the answer
+                answer += "7777777";
+            }
+            //   if the letter is a '8' then
+            if (letter == '8')
+            {
+                //     append '88888888' to the answer
+                answer += "88888888";
+            }
+            //   if the letter is a '9' then
+            if (letter == '9')
+            {
+                //     append '999999999' to the answer
+                answer += "999999999";
+            }
+        }
+    return "";
